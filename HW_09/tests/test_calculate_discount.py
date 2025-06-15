@@ -12,6 +12,7 @@ test_data = [
 
 
 def test_calculate_discount(base_price,discount_percent,expected):
- assert calculate_discount(base_price,discount_percent)==expected
+ result= calculate_discount(base_price,discount_percent)
+ assert result == expected
 
 
